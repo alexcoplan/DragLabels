@@ -1,0 +1,5 @@
+This demonstrates how to create UILabels which the user can drag to change their values.
+
+This sample code is in answer to a Stack Overflow Question: http://stackoverflow.com/a/8503851/840973
+
+By Alex Coplan 2011

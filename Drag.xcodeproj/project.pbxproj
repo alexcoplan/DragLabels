@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE8E77A1498D2FB009C5E6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE8E7791498D2FB009C5E6A /* UIKit.framework */; };
+		FAE8E77C1498D2FB009C5E6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE8E77B1498D2FB009C5E6A /* Foundation.framework */; };
+		FAE8E77E1498D2FB009C5E6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE8E77D1498D2FB009C5E6A /* CoreGraphics.framework */; };
+		FAE8E7841498D2FB009C5E6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAE8E7821498D2FB009C5E6A /* InfoPlist.strings */; };
+		FAE8E7871498D2FB009C5E6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE8E7861498D2FB009C5E6A /* main.m */; };
+		FAE8E78A1498D2FB009C5E6A /* DragAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE8E7891498D2FB009C5E6A /* DragAppDelegate.m */; };
+		FAE8E78D1498D2FB009C5E6A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE8E78B1498D2FB009C5E6A /* MainWindow.xib */; };
+		FAE8E7901498D2FB009C5E6A /* DragViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE8E78F1498D2FB009C5E6A /* DragViewController.m */; };
+		FAE8E7931498D2FB009C5E6A /* DragViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE8E7911498D2FB009C5E6A /* DragViewController.xib */; };
+		FAE8E79B1498D33A009C5E6A /* DragLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE8E79A1498D33A009C5E6A /* DragLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAE8E7751498D2FB009C5E6A /* Drag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE8E7791498D2FB009C5E6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAE8E77B1498D2FB009C5E6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAE8E77D1498D2FB009C5E6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAE8E7811498D2FB009C5E6A /* Drag-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drag-Info.plist"; sourceTree = "<group>"; };
+		FAE8E7831498D2FB009C5E6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAE8E7851498D2FB009C5E6A /* Drag-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Drag-Prefix.pch"; sourceTree = "<group>"; };
+		FAE8E7861498D2FB009C5E6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAE8E7881498D2FB009C5E6A /* DragAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DragAppDelegate.h; sourceTree = "<group>"; };
+		FAE8E7891498D2FB009C5E6A /* DragAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragAppDelegate.m; sourceTree = "<group>"; };
+		FAE8E78C1498D2FB009C5E6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		FAE8E78E1498D2FB009C5E6A /* DragViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DragViewController.h; sourceTree = "<group>"; };
+		FAE8E78F1498D2FB009C5E6A /* DragViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragViewController.m; sourceTree = "<group>"; };
+		FAE8E7921498D2FB009C5E6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DragViewController.xib; sourceTree = "<group>"; };
+		FAE8E7991498D33A009C5E6A /* DragLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragLabel.h; sourceTree = "<group>"; };
+		FAE8E79A1498D33A009C5E6A /* DragLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE8E7721498D2FB009C5E6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE8E77A1498D2FB009C5E6A /* UIKit.framework in Frameworks */,
+				FAE8E77C1498D2FB009C5E6A /* Foundation.framework in Frameworks */,
+				FAE8E77E1498D2FB009C5E6A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE8E76A1498D2FB009C5E6A = {
+			isa = PBXGroup;
+			children = (
+				FAE8E77F1498D2FB009C5E6A /* Drag */,
+				FAE8E7781498D2FB009C5E6A /* Frameworks */,
+				FAE8E7761498D2FB009C5E6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE8E7761498D2FB009C5E6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE8E7751498D2FB009C5E6A /* Drag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE8E7781498D2FB009C5E6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAE8E7791498D2FB009C5E6A /* UIKit.framework */,
+				FAE8E77B1498D2FB009C5E6A /* Foundation.framework */,
+				FAE8E77D1498D2FB009C5E6A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAE8E77F1498D2FB009C5E6A /* Drag */ = {
+			isa = PBXGroup;
+			children = (
+				FAE8E7881498D2FB009C5E6A /* DragAppDelegate.h */,
+				FAE8E7891498D2FB009C5E6A /* DragAppDelegate.m */,
+				FAE8E78B1498D2FB009C5E6A /* MainWindow.xib */,
+				FAE8E78E1498D2FB009C5E6A /* DragViewController.h */,
+				FAE8E78F1498D2FB009C5E6A /* DragViewController.m */,
+				FAE8E7911498D2FB009C5E6A /* DragViewController.xib */,
+				FAE8E7801498D2FB009C5E6A /* Supporting Files */,
+				FAE8E7991498D33A009C5E6A /* DragLabel.h */,
+				FAE8E79A1498D33A009C5E6A /* DragLabel.m */,
+			);
+			path = Drag;
+			sourceTree = "<group>";
+		};
+		FAE8E7801498D2FB009C5E6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE8E7811498D2FB009C5E6A /* Drag-Info.plist */,
+				FAE8E7821498D2FB009C5E6A /* InfoPlist.strings */,
+				FAE8E7851498D2FB009C5E6A /* Drag-Prefix.pch */,
+				FAE8E7861498D2FB009C5E6A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE8E7741498D2FB009C5E6A /* Drag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE8E7961498D2FB009C5E6A /* Build configuration list for PBXNativeTarget "Drag" */;
+			buildPhases = (
+				FAE8E7711498D2FB009C5E6A /* Sources */,
+				FAE8E7721498D2FB009C5E6A /* Frameworks */,
+				FAE8E7731498D2FB009C5E6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drag;
+			productName = Drag;
+			productReference = FAE8E7751498D2FB009C5E6A /* Drag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE8E76C1498D2FB009C5E6A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = FAE8E76F1498D2FB009C5E6A /* Build configuration list for PBXProject "Drag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAE8E76A1498D2FB009C5E6A;
+			productRefGroup = FAE8E7761498D2FB009C5E6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE8E7741498D2FB009C5E6A /* Drag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE8E7731498D2FB009C5E6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE8E7841498D2FB009C5E6A /* InfoPlist.strings in Resources */,
+				FAE8E78D1498D2FB009C5E6A /* MainWindow.xib in Resources */,
+				FAE8E7931498D2FB009C5E6A /* DragViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE8E7711498D2FB009C5E6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE8E7871498D2FB009C5E6A /* main.m in Sources */,
+				FAE8E78A1498D2FB009C5E6A /* DragAppDelegate.m in Sources */,
+				FAE8E7901498D2FB009C5E6A /* DragViewController.m in Sources */,
+				FAE8E79B1498D33A009C5E6A /* DragLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAE8E7821498D2FB009C5E6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE8E7831498D2FB009C5E6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAE8E78B1498D2FB009C5E6A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE8E78C1498D2FB009C5E6A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		FAE8E7911498D2FB009C5E6A /* DragViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE8E7921498D2FB009C5E6A /* en */,
+			);
+			name = DragViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE8E7941498D2FB009C5E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAE8E7951498D2FB009C5E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		FAE8E7971498D2FB009C5E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drag/Drag-Prefix.pch";
+				INFOPLIST_FILE = "Drag/Drag-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAE8E7981498D2FB009C5E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drag/Drag-Prefix.pch";
+				INFOPLIST_FILE = "Drag/Drag-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE8E76F1498D2FB009C5E6A /* Build configuration list for PBXProject "Drag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE8E7941498D2FB009C5E6A /* Debug */,
+				FAE8E7951498D2FB009C5E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE8E7961498D2FB009C5E6A /* Build configuration list for PBXNativeTarget "Drag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE8E7971498D2FB009C5E6A /* Debug */,
+				FAE8E7981498D2FB009C5E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE8E76C1498D2FB009C5E6A /* Project object */;
+}
